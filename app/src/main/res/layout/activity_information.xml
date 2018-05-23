@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Information">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="345dp"
+        android:layout_height="259dp"
+        android:layout_marginStart="8dp"
+        android:text="VolunteerMe is an app to help people help others. Sometimes people want to go out and volunteer or help but they don't know where to go or where they are actually needed. Sometimes certain organizations need volunteers but dont know how to reach them. This makes it so that both parties will be happy. This can help with people who have mandatory community service too. For example the food bank needs volunteers for a special dinner they have but they can't find enough volunteers, they could post an announcement on this app. This is also a great way for people to get out and socialize."
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="53dp" />
+</android.support.constraint.ConstraintLayout>
