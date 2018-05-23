@@ -22,7 +22,7 @@ public class AddVolunteer extends AppCompatActivity {
 
     private static final String TAG = "blank";
     FirebaseDatabase database = FirebaseDatabase.getInstance();
-    DatabaseReference what = database.getReference("what" + num);
+    DatabaseReference what = database.getReference("what");
     DatabaseReference where = database.getReference("where");
     DatabaseReference date = database.getReference("date");
 
